@@ -109,6 +109,17 @@ h3 {
   display: flex;
   justify-content: center; }
 
+.centerimg {
+  display: flex;
+  justify-content: center;
+  margin: 1rem; }
+
+.centerimg1 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  height: 10rem; }
+
 .mapimg {
   height: 10rem; }
 
