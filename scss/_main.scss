@@ -15,7 +15,7 @@ h1 {
     justify-content: center;
     width: 99%;
 }
-  
+
 h2 {
     color: white;
     font-weight: lighter;
@@ -25,26 +25,67 @@ h3 {
     color: orangered;
 }
 
-.form {
+.totalWidth {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 98% !important;
+    margin-left: 1rem;
+}
+.cajaform1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #372b25 1px solid;
+}
+
+.cajaform2 h2{
+text-align: center;
+}
+
+.form {
+    border: 2px #372b25 ;
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 40px;
-    flex-direction: column;
     align-items: center;
-    justify-content: center
 }
   
 .form2 {
+    border: #372b25 1px solid;
     display: flex;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 40px;
-    flex-direction: column;
     align-items: center;
     justify-content: center
+
 }
-  
+
+.form label {
+    color: white;
+}
+
+.form2 label {
+    color: white;
+}
+
+.marg {
+    margin-bottom: 2rem;
+}
+
+.marg input {
+    border-radius: 3%;
+    height: 90%;
+}
+
 .enviar {
     margin: 10px;
+}
+
+.formulario{
+    display: flex;
 }
 
 .dondeImg {
@@ -54,12 +95,19 @@ h3 {
     height: 50rem;
 } 
 
+.cardBackground {
+    background-color: #343a40;
+}
 .maps {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
 }
 
+.imgalt {
+    object-fit: cover;
+    height: 497px;
+}
 .centerimg {
     display: flex;
     justify-content: center;
@@ -70,11 +118,15 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 1rem;
-    height: 10rem;
+    height: 7rem;
 }
 
 .mapimg {
     height: 10rem;
+
+    &:hover {
+        height: 11rem;
+    }
 }
 
 .musculacion {
@@ -96,20 +148,51 @@ section p {
     display: block;
     align-items: center;
 }
-  
-    .tarjetas {
+
+.tarjetas {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 25rem;
 } 
-  
+
 .tarjetas img {
-    width: 20rem;
-    border-radius: 3px;
-    transition: height 0.2s, width 0.2s;
+    display: flex;
+    height: 20rem;
 }
 
-.tarjetas img:hover {
-    height: 300px;
-    width: 300px;
+.centerprice {
+    display: flex;
+    justify-content: center;
+}
+.miCard {
+    width: 100rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.cardColor {
+     background-color:#454545;
+}
+
+.cardTitle {
+    color: white;
+}
+
+.cardimg {
+    height: 29rem;
+}
+
+.descripcion {
+    align-items: center;
+}
+  
+.formulario {
+    display: flex;
+    flex-direction: column; 
+}
+
+.icon {
+    height: 60px;
 }
